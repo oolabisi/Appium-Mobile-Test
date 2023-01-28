@@ -1,0 +1,123 @@
+{
+  "login": {
+    "validEmail2": "olusogaoluyemi87@gmail.com",
+    "validPassword2": "P@ssword2",
+    "validEmail": "robor.eminokanju@gmail.com",
+    "validPassword": "Pass@12345",
+    "validEmail1": "faeyemi@gmail.com",
+    "validPassword1": "0Gund@iro",
+    "newEmail": "newUser@newSign.com",
+    "incompleteEmail": "test@.",
+    "invalidPassword": "test",
+    "firstname": "Oluyemi",
+    "food" : "Food",
+    "pin" : "1234",
+    "newPin" : "1234",
+    "confirmPin" : "1234"
+  },
+
+  "saving" : {
+    "planName" : "FluffierPlan",
+    "PlanName" : "SmartPlan",
+    "amount" : "4000000",
+    "flex" : "400000",
+    "withdraw" : "200000",
+    "tenure" : "2",
+    "frequency" : "weekly",
+    "cardNumber" : "4084084084084081",
+    "pin1" : "1",
+    "pin2" : "2",
+    "pin3" : "3",
+    "pin4" : "4",
+
+    "invalidPlanName" : "12345",
+    "negativeAmount" : "-500000",
+    "invalidAmount" : "100000000000000000",
+    "invalidTenure" : "345",
+    "negativeTenure" : "-4",
+    "negativeCardNumber" : "-4084084084084081",
+    "invalidPin" : "2345"
+  },
+
+  "transfer" : {
+    "bank" : "GTBank",
+    "renBank" : "Renmoney",
+    "account" : "0112174995",
+    "ren_account1" : "3580013959",
+    "ren_account" : "3588913660",
+    "amount" : "2000000",
+    "narration" : "Urgent 2k",
+    "pin2" : "OOOO",
+    "pin1" : "2233",
+    "pin" : "1234",
+    "invalidBank" : "2233",
+    "beneficiary" : "ogun",
+    "incompleteAccount" : "35800180",
+    "negativeAccount" : "-3580018064",
+    "amountExceeding" : "100000000000000000000000",
+    "negativeAmount" : "-20000",
+    "wrongPin" : "3322"
+  },
+
+  "airtimeData" : {
+    "purchaseType" : "airTime",
+    "networkType" : "Airtel",
+    "networkType2" : "MTN",
+    "phoneNumber" : "08022514503",
+    "amount" : "20000",
+    "transactionPin" : "1234",
+    "transactionPin2" : "2233",
+    "transactionPin1" : "0000",
+
+    "dataPhoneNumber" : "09037722595",
+    "incompletePhoneNumber" : "09037722",
+    "overAHundredThousand" : "100000000",
+    "lowerAmount" : "9900",
+    "wrongPin" : "1234",
+
+    "oldPassword" : "P@ssword2",
+    "newPassword" : "P@ssword1"
+  },
+
+  "receiveMoney" : {
+    "money" : "500000",
+    "card" : "4084084084084081",
+    "card1" : "507850785078507812",
+    "cardDate" : "1023",
+    "cvv" : "408",
+    "cardPin" : "1234",
+    "wrongPin" : "9090",
+    "moneyBelow" : "99900",
+    "moreThanAccount" : "9000000000000000000000000000000000000000",
+    "negativeMoney" : "-3000000",
+    "incompleteCardNumber" : "5078507850",
+    "wrongCardDate" : "0121",
+    "wrongCVV" : "434",
+    "negativeCard" : "-507850785078507812"
+  },
+
+  "renFlex" : {
+    "money" : "200000",
+    "invalidMoney" : "-200000"
+  },
+
+  "loan" : {
+    "negativeAmount": "-1000000",
+    "invalidAmount": "450000",
+    "validLoan": "20000000",
+    "landmark" : "Lagos",
+    "minimumLoan" : "900000",
+    "salary" : "50000000",
+    "address" : "32,Awolowo way Obalende-Ikoyi",
+    "bankUsed" : "GT Bank",
+    "accountNumber" : "0539084231",
+    "nokFirstName" : "firstName",
+    "nokLastName" : "lastName",
+    "nokPhoneNumber" : "09060257738",
+    "companyName" : "Rainy Money",
+    "companyAddress" : "30, Awolowo way Obalende-Ikoyi"
+  },
+
+  "dashboard" : {}
+
+}

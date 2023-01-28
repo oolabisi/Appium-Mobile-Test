@@ -1,0 +1,174 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="tests" thread-count="1" >
+
+    <parameter name="dataEnv" value="stagingData"/>
+    <parameter name="groupReport" value="/htmlreport.html"/>
+
+    <test name="flutterPackage">
+        <classes>
+
+            <class name="test.LoginTestPage">
+                <methods>
+                    <include name="navigateToSignIn"/>
+                    <include name="unregisteredEmail"/>
+                    <include name="incompleteEmail"/>
+                    <include name="validEmail"/>
+                    <include name="invalidPassword"/>
+                    <include name="showPassword"/>
+                    <include name="validPassword"/>
+                </methods>
+            </class>
+
+            <class name="test.DashboardTestPage">
+                <methods>
+                    <include name="dashboard"/>
+                    <include name="historyTab"/>
+                    <include name="notification"/>
+                    <include name="hideAndShowTransaction"/>
+                    <include name="addMoneyTab"/>
+                    <include name="sendMoneyTab"/>
+                    <include name="buyAirtimeTab"/>
+                    <include name="saveIconTab"/>
+                    <include name="investTab"/>
+                    <include name="loanIconTab"/>
+                    <include name="moreIconTab"/>
+                    <include name="investAndEarn"/>
+                    <include name="loanTab"/>
+                    <include name="purchaseAirtime"/>
+                    <include name="notification"/>
+                </methods>
+            </class>
+
+            <class name="test.MoreTestPage">
+                <methods>
+                    <include name="navigateToMorePage"/>
+                    <include name="myProfile"/>
+                    <include name="linkedCards"/>
+                    <include name="faq"/>
+                    <include name="generalFAQ"/>
+                    <include name="savingsFAQ"/>
+                    <include name="loanFAQ"/>
+                    <include name="referrals"/>
+                    <include name="securityQuestion"/>
+                    <include name="changePin"/>
+                </methods>
+            </class>
+
+            <class name="test.AddMoneyTestPage">
+                <methods>
+                    <include name="navigateToAddMoney"/>
+                    <include name="copyAccount"/>
+                    <include name="shareAccount"/>
+                    <include name="backToDashboard"/>
+                </methods>
+            </class>
+
+            <class name="test.TransactionTestPage">
+                <methods>
+                    <include name="goToSendMoneyPage"/>
+                    <include name="sendMoneyPage"/>
+                    <include name="chooseBank"/>
+                    <include name="negativeMoney"/>
+                    <include name="amountExceedingBalance"/>
+                    <include name="validAmount"/>
+                    <include name="wrongRecipientNumber"/>
+                    <include name="recipientAccount"/>
+                    <include name="transactionPin"/>
+                    <include name="returnToSendMoneyPage"/>
+                    <include name="sendMoneyToRenmoneyPage"/>
+                    <include name="chooseRenmoney"/>
+                    <include name="amountExceedingOwnerBalance"/>
+                    <include name="validAmountToRenmoney"/>
+                    <include name="wrongRenmoneyRecipientNumber"/>
+                    <include name="renmoneyRecipientAccount"/>
+                    <include name="transactionPinForTransfer"/>
+                    <include name="returnToSendMoneyPageAgain"/>
+                    <include name="sendMoneyToBeneficiary"/>
+                    <include name="searchBeneficiary"/>
+                    <include name="beneficiaryAmount"/>
+                    <include name="transactionPinForBeneficiary"/>
+                    <include name="returnToDashboard"/>
+                    <include name=""/>
+                </methods>
+            </class>
+
+            <class name="test.AirtimeDataTestPage">
+                <methods>
+                    <include name="navigateToAirtimeAndData"/>
+                    <include name="rechargeAirtime"/>
+                    <include name="selectAirtime"/>
+                    <include name="searchThroughAirtime"/>
+                    <include name="chooseAirtime"/>
+                    <include name="addInvalidPhoneNumber"/>
+                    <include name="addPhoneNumber"/>
+                    <include name="amountToRecharge"/>
+                    <include name="autoAmount"/>
+                    <include name="autoAmount1"/>
+                    <include name="autoAmount2"/>
+                    <include name="transactionPin"/>
+                    <include name="returnHome"/>
+                    <include name="rechargeData"/>
+                    <include name="selectData"/>
+                    <include name="selectDataNetwork"/>
+                    <include name="addDataPhoneNumber"/>
+                    <include name="selectDataProvider"/>
+                    <include name="transactionPinForData"/>
+                    <include name=""/>
+                </methods>
+            </class>
+
+            <class name="test.SmartGoalTestPage">
+                <methods>
+                    <include name="navigateToSavingsPage"/>
+                    <include name="checkHistory"/>
+                    <include name="withdraw"/>
+                    <include name="startRenFlex"/>
+                    <include name="renFlexAmount"/>
+                    <include name="flexPin"/>
+                    <include name="backHome"/>
+                    <include name="withdrawRenFlex"/>
+                    <include name="amountRenFlex"/>
+                    <include name="withDrawPin"/>
+                    <include name="backHomeAgain"/>
+                    <include name="createPlanName"/>
+                    <include name="smartAmount"/>
+                    <include name="smartDuration"/>
+                    <include name="smartTenure"/>
+                    <include name="transactionPin"/>
+                    <include name="returnHome"/>
+                </methods>
+            </class>
+
+            <class name="test.FixDepositTestPage">
+                <methods>
+                    <include name="navigateToInvestmentPage"/>
+                    <include name="checkHistory"/>
+                    <include name="withdraw"/>
+                    <include name="planName"/>
+                    <include name="fixedAmount"/>
+                    <include name="fixedDuration"/>
+                    <include name="transactionPin"/>
+                    <include name="goBackToInvestmentPage"/>
+                    <include name=""/>
+                    <include name=""/>
+                    <include name=""/>
+                    <include name=""/>
+                </methods>
+            </class>
+
+            <class name="test.LoanTestPage">
+                <methods>
+                    <include name="navigateToLoanPage"/>
+                    <include name="businessLoan"/>
+                    <include name="aboutRenMoney"/>
+                    <include name="backToLoanPage"/>
+                    <include name=""/>
+                    <include name=""/>
+                </methods>
+            </class>
+
+              </classes>
+    </test>
+
+</suite>
