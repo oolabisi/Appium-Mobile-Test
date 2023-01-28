@@ -1,0 +1,12 @@
+# Appium-Mobile-Test
+- Appium
+- Java programmng language
+- Selenium Webdriver
+- TestNg
+- Test Report
+- Maven
+- Utility Method
+- Swipe screen for Mobile (new)
+- Page Object model
+- Data stored in json file
+- FileReader for stored data
